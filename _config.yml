@@ -1,0 +1,23 @@
+title: Tau Beta Pi – NJ Gamma Chapter
+description: NJIT's Tau Beta Pi Chapter website
+# baseurl: "" # Only set this if you're using a project page (e.g. /my-repo)
+url: "https://pranav-r-a.github.io" # Replace with your actual GitHub Pages URL
+
+theme: minima # or leave blank if you’re using a custom layout
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Optional: add these if you're using collections or custom pages
+# collections:
+#   members:
+#     output: true

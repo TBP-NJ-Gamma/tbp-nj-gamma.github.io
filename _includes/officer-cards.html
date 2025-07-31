@@ -1,0 +1,16 @@
+{% for officer in page.officers %}
+<div class="officer-card">
+    <div class="officer-images">
+        {% for img in officer.images %}
+        <img src="{{ img.src }}" alt="{{ img.alt }}">
+        {% endfor %}
+    </div>
+    <div class="officer-details">
+        <h6>{{ officer.title }}:</h6>
+        <span class="officer-names">{{ officer.names }}</span>
+        <p>{{ officer.description }}</p>
+        <p>Email: {{ officer.email }}</p>
+        <p>Major: {{ officer.major }}</p>
+    </div>
+</div>
+{% endfor %}

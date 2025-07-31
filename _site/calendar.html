@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Tau Beta Pi – NJ Gamma Chapter</title>
+
+	<!-- Bootstrap & Fonts -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;600;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+	<!-- Custom Styles -->
+	<style>
+		body {
+			font-family: 'Segoe UI', sans-serif;
+		}
+
+		h1,
+		h2 {
+			font-weight: 700;
+			color: #1c3d6e;
+			text-align: center;
+			font-family: 'IBM Plex Sans Condensed', sans-serif;
+			margin-bottom: 1rem;
+		}
+
+		p,
+		li,
+		a {
+			font-family: Georgia, serif;
+		}
+
+		.section {
+			padding: 4rem 1rem 0.1rem;
+		}
+
+		.famous-img {
+			width: 150px;
+			border-radius: 10px;
+			margin-bottom: 1rem;
+		}
+
+		.header-logo {
+			max-height: 80px;
+		}
+
+		.section-light {
+			background-color: #eef2f7;
+		}
+
+		.section-dark {
+			background-color: #eef2f7;
+		}
+
+		.btn-custom {
+			background-color: #0d1e4f;
+			color: #fff;
+			border-radius: 0;
+			padding: 6px 16px;
+			font-weight: bold;
+		}
+
+		.btn-custom:hover {
+			background-color: #1c3d6e;
+		}
+
+		footer ul {
+			list-style: none;
+			padding: 0;
+		}
+
+		footer ul li {
+			margin-bottom: 0.5rem;
+		}
+		
+	</style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light border-bottom"
+			style="background-color: #eef2f7; z-index: 1030;">
+			<div class="container-fluid px-4 py-2">
+				<a class="navbar-brand" href="index.html">
+					<img src="tbp.png" alt="Tau Beta Pi Logo" class="header-logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+						<li class="nav-item">
+							<a class="nav-link fw-bold" href="about.html">ABOUT</a>
+						</li>
+						<li class="nav-item dropdown d-flex align-items-center">
+							<a class="btn btn-custom" href="./members.html">PEOPLE</a>
+							<a class="btn btn-custom dropdown-toggle dropdown-toggle-split" href="#" id="navbarDropdown"
+								role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="visually-hidden">Toggle Dropdown</span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="./f24.html">Fall 2024</a></li>
+								<li><a class="dropdown-item" href="./sp24.html">Spring 2024</a></li>
+								<li><a class="dropdown-item" href="./f23.html">Fall 2023</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item">
+							<a class="btn btn-custom" href="mailto:tbp@njit.edu">CONTACT US</a>
+						</li>
+                        <li class="nav-item">
+							<a class="btn btn-custom" href="./calendar.html">CALENDAR</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div style="background-color:#1c3d6e; height: 0.5rem"></div>
+
+	<main class="flex-grow-1">
+		<!-- Integrity Section -->
+		<section class="section section-light text-center">
+  <div class="container">
+    <div class="mx-auto mb-3" style="max-width: 820px;">
+      <h1>CALENDAR</h1>
+      <div style="overflow-x:auto;">
+        <iframe src="https://calendar.google.com/calendar/embed?src=njit.edu_tf7j540njeg2n18rbd6mermgbc%40group.calendar.google.com&ctz=America%2FNew_York"
+          style="border:0; display:block; margin:auto;" width="100%" style="min-width:300px; max-width:800px; display:block; margin:auto;" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+	<!-- Footer -->
+	<footer class="bg-dark text-white pt-5 pb-4 mt-auto">
+		<div class="container">
+			<div class="row text-start text-md-left align-items-start">
+				<div class="col-md-4 mb-4 text-center text-md-start">
+					<img src="tbp.png" alt="Tau Beta Pi Logo" class="mb-3" style="height: 80px;">
+					<div>
+						<h6 class="fw-bold">Follow Us!</h6>
+						<a href="https://www.instagram.com/njit.tau_beta_pi/" target="_blank" class="text-white">
+							<i class="bi bi-instagram" style="font-size: 1.2rem;"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<h6 class="fw-bold">Tau Beta Pi</h6>
+					<ul class="list-unstyled">
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">About</a></li>
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">Members</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 mb-4">
+					<h6 class="fw-bold">Contact</h6>
+					<ul class="list-unstyled">
+						<li class="mb-2"><a href="mailto:tbp@njit.edu" class="text-white text-decoration-none">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<hr class="border-top border-light">
+			<p class="text-center mb-0">&copy; 2025 Tau Beta Pi – NJ Gamma Chapter</p>
+		</div>
+	</footer>
+
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
