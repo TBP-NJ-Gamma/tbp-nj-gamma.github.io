@@ -3,13 +3,15 @@
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link rel="preload" as="image" href="./image/img_5189.jpg" fetchpriority="high"/>
   <title>
    Tau Beta Pi &ndash; NJ Gamma Chapter
   </title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&amp;display=swap" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" media="print" onload="this.media='all'"/>
   <style>
    body {
             font-family: 'Segoe UI', sans-serif;
@@ -33,9 +35,11 @@
         }
         .famous-img {
             max-width: 220px;
+            width: 100%;
             border-radius: 10px;
             margin-bottom: 1rem;
             object-fit: cover;
+            height: auto;
         }
 		p, li{
 			font-family: Georgia, serif;
@@ -68,6 +72,7 @@
         .benefits-img {
             max-width: 500px;
             width: 90%;
+            height: auto;
             border-radius: 10px;
             margin-top: 1.5rem;
         }
@@ -105,10 +110,9 @@
         ul.famous-list {
             padding-left: 1.2rem;
         }
-   .famous-img, .benefits-img {
-    width: 50%;
-    height: 50%;
+.famous-img, .benefits-img {
     max-width: 100%;
+    height: auto;
 }
 .section {
     padding: 4rem 1rem 2rem;
@@ -131,7 +135,7 @@
 			style="background-color: #eef2f7; z-index: 1030;">
 			<div class="container-fluid px-4 py-2">
 				<a class="navbar-brand" href="index.html">
-					<img src="tbp.png" alt="Tau Beta Pi Logo" class="header-logo">
+					<img src="./image/tbp.png" alt="Tau Beta Pi Logo" class="header-logo" width="1500" height="405" style="height: 64px; width: auto;" decoding="async" fetchpriority="high">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -141,7 +145,7 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
 						<li class="nav-item">
-							<a class="nav-link fw-bold" href="about.html">ABOUT</a>
+							<a class="nav-link fw-bold" href="./about.html">ABOUT</a>
 						</li>
 						<li class="nav-item dropdown d-flex align-items-center">
 							<a class="btn btn-custom" href="./members.html">PEOPLE</a>
@@ -185,7 +189,7 @@
        </p>
       </div>
       <div class="col-lg-5 text-center">
-       <img alt="Plaque" class="img-fluid rounded shadow mt-3" src="img_5189.jpg" style="max-width: 340px;"/>
+    <img alt="Plaque" class="img-fluid rounded shadow mt-3" src="./image/img_5189.jpg" style="max-width: 340px;" width="1170" height="1542" decoding="async" fetchpriority="high"/>
       </div>
      </div>
     </div>
@@ -200,7 +204,7 @@
       TBP provides students with many career long benefits such as: an Online Job Board, TBP Recruitment Fair access, a gifted hire invitation, United Planet scholarship access, 20% off FE/EIT exams, and many other exclusive discounts (i.e. Gleen, Dell, 100+ hotels worldwide).
      </p>
      <div class="d-flex justify-content-center">
-      <img alt="Old Group Photo" class="benefits-img shadow" src="308642396_181378954399829_7153917147474899449_n.jpg"/>
+    <img alt="Old Group Photo" class="benefits-img shadow" src="./image/308642396_181378954399829_7153917147474899449_n.jpg" width="960" height="590" loading="lazy" decoding="async"/>
      </div>
     </div>
    </section>
@@ -250,8 +254,8 @@
       </div>
       <div class="col-lg-5 text-center">
        <div class="d-flex flex-row flex-lg-column align-items-center justify-content-center gap-3">
-        <img alt="Mary Barra" class="famous-img" src="barra_mary.png"/>
-        <img alt="Buzz Aldrin" class="famous-img" src="aldrin.png"/>
+        <img alt="Mary Barra" class="famous-img" src="./image/barra_mary.png" width="300" height="334" loading="lazy" decoding="async"/>
+        <img alt="Buzz Aldrin" class="famous-img" src="./image/aldrin.png" width="648" height="725" loading="lazy" decoding="async"/>
        </div>
       </div>
      </div>
@@ -293,7 +297,7 @@
 		<div class="container">
 			<div class="row text-start text-md-left align-items-start">
 				<div class="col-md-4 mb-4 text-center text-md-start">
-					<img src="tbp.png" alt="Tau Beta Pi Logo" class="mb-3" style="height: 80px;">
+					<img src="./image/tbp.png" alt="Tau Beta Pi Logo" class="mb-3" style="height: 80px;" width="1500" height="405" loading="lazy" decoding="async">
 					<div>
 						<h6 class="fw-bold">Follow Us!</h6>
 						<a href="https://www.instagram.com/njit.tau_beta_pi/" target="_blank" class="text-white">
