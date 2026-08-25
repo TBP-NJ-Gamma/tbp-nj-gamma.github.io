@@ -2,7 +2,7 @@
 <div class="officer-card">
     <div class="officer-images">
         {% for img in officer.images %}
-        <img src="{{ img.src }}" alt="{{ img.alt }}">
+        <img src="{{ img.src }}" alt="{{ img.alt }}" width="140" height="140" loading="lazy" decoding="async">
         {% endfor %}
     </div>
     <div class="officer-details">
