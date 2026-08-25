@@ -95,8 +95,9 @@
 
 		.officer-card .officer-images img {
 			width: 140px;
-			height: 140px;
-			object-fit: cover;
+			height: auto;
+			max-height: 140px;
+			object-fit: contain;
 			border-radius: 0.5rem;
 			background-color: #ccc;
 			display: block;
@@ -229,7 +230,7 @@
   }
   .officer-card .officer-images img {
     width: 100px;
-    height: 100px;
+		max-height: 100px;
   }
   .officer-details {
     width: 100%;
@@ -246,7 +247,7 @@
   }
   .officer-card .officer-images img {
     width: 70px;
-    height: 70px;
+		max-height: 70px;
   }
 }
 	</style>
@@ -325,11 +326,11 @@
 <div class="officer-card">
     <div class="officer-images">
         
-        <img src="./image/aldrin.png" alt="Ayushi Sangoi" width="140" height="140" loading="lazy" decoding="async">
+        <img src="./image/aldrin.png" alt="Ayushi Sangoi" loading="lazy" decoding="async">
         
     </div>
     <div class="officer-details">
-        <h6>PRESIDENT:</h6>
+        <h2 class="h6">PRESIDENT:</h2>
         <span class="officer-names">Ayushi Sangoi</span>
         <p>The president is responsible for coordinating activities of the organization, faculty, and maintains contact with headquarters as well as fills out official forms.</p>
         <p>Email: aks84@njit.edu</p>
@@ -340,11 +341,11 @@
 <div class="officer-card">
     <div class="officer-images">
         
-        <img src="./image/aldrin.png" alt="Alex Goodwin" width="140" height="140" loading="lazy" decoding="async">
+        <img src="./image/aldrin.png" alt="Alex Goodwin" loading="lazy" decoding="async">
         
     </div>
     <div class="officer-details">
-        <h6>VICE PRESIDENT OF INTERNAL AFFAIRS:</h6>
+        <h2 class="h6">VICE PRESIDENT OF INTERNAL AFFAIRS:</h2>
         <span class="officer-names">Alex Goodwin</span>
         <p>The Vice President of Internal Affairs coordinates the induction process and is the point of contact for initiates.</p>
         <p>Email: alg54@njit.edu</p>
@@ -355,11 +356,11 @@
 <div class="officer-card">
     <div class="officer-images">
         
-        <img src="./image/aldrin.png" alt="Priyanshi Luhar" width="140" height="140" loading="lazy" decoding="async">
+        <img src="./image/aldrin.png" alt="Priyanshi Luhar" loading="lazy" decoding="async">
         
     </div>
     <div class="officer-details">
-        <h6>VICE PRESIDENT OF ACADEMICS:</h6>
+        <h2 class="h6">VICE PRESIDENT OF ACADEMICS:</h2>
         <span class="officer-names">Priyanshi Luhar</span>
         <p>The Vice President of Academics ensures that all initiates are completing tutoring sessions or completing their STEM videos.</p>
         <p>Email: alg54@njit.edu</p>
@@ -370,13 +371,13 @@
 <div class="officer-card">
     <div class="officer-images">
         
-        <img src="./image/aldrin.png" alt="Pranav Anthapu" width="140" height="140" loading="lazy" decoding="async">
+        <img src="./image/aldrin.png" alt="Pranav Anthapu" loading="lazy" decoding="async">
         
-        <img src="./image/barra_mary.png" alt="Snigda Nadella" width="140" height="140" loading="lazy" decoding="async">
+        <img src="./image/barra_mary.png" alt="Snigda Nadella" loading="lazy" decoding="async">
         
     </div>
     <div class="officer-details">
-        <h6>VICE PRESIDENT OF SERVICE:</h6>
+        <h2 class="h6">VICE PRESIDENT OF SERVICE:</h2>
         <span class="officer-names">Pranav Anthapu & Snigda Nadella</span>
         <p>The Vice President of Service and Academics creates service and academic opportunities for initiates and members.</p>
         <p>Email: pra@njit.edu & sn64@njit.edu</p>
@@ -387,11 +388,11 @@
 <div class="officer-card">
     <div class="officer-images">
         
-        <img src="./image/aldrin.png" alt="Elizabeth Hervias" width="140" height="140" loading="lazy" decoding="async">
+        <img src="./image/aldrin.png" alt="Elizabeth Hervias" loading="lazy" decoding="async">
         
     </div>
     <div class="officer-details">
-        <h6>VICE PRESIDENT OF ALUMNI RELATIONS:</h6>
+        <h2 class="h6">VICE PRESIDENT OF ALUMNI RELATIONS:</h2>
         <span class="officer-names">Elizabeth Hervias</span>
         <p>The Vice President of Alumni Relations maintains contact with alumni.</p>
         <p>Email: eih2@njit.edu</p>
@@ -402,13 +403,13 @@
 <div class="officer-card">
     <div class="officer-images">
         
-        <img src="./image/aldrin.png" alt="Julia Carroll" width="140" height="140" loading="lazy" decoding="async">
+        <img src="./image/aldrin.png" alt="Julia Carroll" loading="lazy" decoding="async">
         
-        <img src="./image/aldrin.png" alt="Ojasvita Reddy" width="140" height="140" loading="lazy" decoding="async">
+        <img src="./image/aldrin.png" alt="Ojasvita Reddy" loading="lazy" decoding="async">
         
     </div>
     <div class="officer-details">
-        <h6>VICE PRESIDENT OF PROGRAMMING:</h6>
+        <h2 class="h6">VICE PRESIDENT OF PROGRAMMING:</h2>
         <span class="officer-names">Julia Carroll & Ojasvita Reddy</span>
         <p>The Vice President of Programming coordinates with other organizations on campus to host events.</p>
         <p>Email: jfc6@njit.edu & ojr5@njit.edu</p>
@@ -419,13 +420,13 @@
 <div class="officer-card">
     <div class="officer-images">
         
-        <img src="./image/aldrin.png" alt="Antonio Antunucci" width="140" height="140" loading="lazy" decoding="async">
+        <img src="./image/aldrin.png" alt="Antonio Antunucci" loading="lazy" decoding="async">
         
-        <img src="./image/aldrin.png" alt="Jade Lorences" width="140" height="140" loading="lazy" decoding="async">
+        <img src="./image/aldrin.png" alt="Jade Lorences" loading="lazy" decoding="async">
         
     </div>
     <div class="officer-details">
-        <h6>VICE PRESIDENT OF MEMBERSHIP:</h6>
+        <h2 class="h6">VICE PRESIDENT OF MEMBERSHIP:</h2>
         <span class="officer-names">Antonio Antunucci & Jade Lorences</span>
         <p>The Vice President of Membership engages members with monthly events.</p>
         <p>Email: aja25@njit.edu & jl268@njit.edu</p>
@@ -438,7 +439,7 @@
         
     </div>
     <div class="officer-details">
-        <h6>SECRETARY:</h6>
+        <h2 class="h6">SECRETARY:</h2>
         <span class="officer-names">Angie El Hayek & Varsha Thampi</span>
         <p>The secretary focuses on the logistical details such as emails, communication between members, and any newsletters that need to be distributed.</p>
         <p>Email: aja25@njit.edu & jl268@njit.edu</p>
@@ -456,20 +457,20 @@
 					<img src="./image/tbp.png" alt="Tau Beta Pi Logo" class="mb-3" style="height: 80px;" width="1500" height="405" loading="lazy" decoding="async">
 					<div>
 						<h6 class="fw-bold">Follow Us!</h6>
-						<a href="https://www.instagram.com/njit.tau_beta_pi/" target="_blank" class="text-white">
+						<a href="https://www.instagram.com/njit.tau_beta_pi/" target="_blank" rel="noopener noreferrer" aria-label="Visit Tau Beta Pi NJ Gamma on Instagram" class="text-white">
 							<i class="bi bi-instagram" style="font-size: 1.2rem;"></i>
 						</a>
 					</div>
 				</div>
 				<div class="col-md-4 mb-4">
-					<h6 class="fw-bold">Tau Beta Pi</h6>
+						<h2 class="h6 fw-bold">Tau Beta Pi</h2>
 					<ul class="list-unstyled">
-						<li class="mb-2"><a href="#" class="text-white text-decoration-none">About</a></li>
-						<li class="mb-2"><a href="#" class="text-white text-decoration-none">Members</a></li>
+						<li class="mb-2"><a href="./about.html" class="text-white text-decoration-none">About</a></li>
+						<li class="mb-2"><a href="./members.html" class="text-white text-decoration-none">Members</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4 mb-4">
-					<h6 class="fw-bold">Contact</h6>
+					<h2 class="h6 fw-bold">Contact</h2>
 					<ul class="list-unstyled">
 						<li class="mb-2"><a href="mailto:tbp@njit.edu" class="text-white text-decoration-none">Contact Us</a></li>
 					</ul>

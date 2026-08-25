@@ -2,11 +2,11 @@
 <div class="officer-card">
     <div class="officer-images">
         {% for img in officer.images %}
-        <img src="{{ img.src }}" alt="{{ img.alt }}" width="140" height="140" loading="lazy" decoding="async">
+        <img src="{{ img.src }}" alt="{{ img.alt }}" loading="lazy" decoding="async">
         {% endfor %}
     </div>
     <div class="officer-details">
-        <h6>{{ officer.title }}:</h6>
+        <h2 class="h6">{{ officer.title }}:</h2>
         <span class="officer-names">{{ officer.names }}</span>
         <p>{{ officer.description }}</p>
         <p>Email: {{ officer.email }}</p>

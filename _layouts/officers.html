@@ -98,8 +98,9 @@ layout: none
 
 		.officer-card .officer-images img {
 			width: 140px;
-			height: 140px;
-			object-fit: cover;
+			height: auto;
+			max-height: 140px;
+			object-fit: contain;
 			border-radius: 0.5rem;
 			background-color: #ccc;
 			display: block;
@@ -232,7 +233,7 @@ layout: none
   }
   .officer-card .officer-images img {
     width: 100px;
-    height: 100px;
+		max-height: 100px;
   }
   .officer-details {
     width: 100%;
@@ -249,7 +250,7 @@ layout: none
   }
   .officer-card .officer-images img {
     width: 70px;
-    height: 70px;
+		max-height: 70px;
   }
 }
 	</style>
